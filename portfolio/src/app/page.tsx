@@ -46,7 +46,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/youtube.svg"
+            src="/youtube-2.svg"
             alt="Youtube"
             width={16}
             height={16}
