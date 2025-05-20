@@ -10,48 +10,48 @@ export default function Home() {
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          href="https://linkedin.com/in/znarmouq"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
             aria-hidden
-            src="/file.svg"
+            src="/linkedin.svg"
             alt="File icon"
             width={16}
             height={16}
           />
-          Learn
+          LinkedIn
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          href="https://github.com/znarmouq"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
             aria-hidden
-            src="/window.svg"
+            src="/github-light.svg"
             alt="Window icon"
             width={16}
             height={16}
           />
-          Examples
+          Github
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          href="https://www.youtube.com/watch?v=Aq5WXmQQooo"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
             aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
+            src="/youtube.svg"
+            alt="Youtube"
             width={16}
             height={16}
           />
-          Go to nextjs.org →
+          Youtube
         </a>
       </footer>
     </div>
