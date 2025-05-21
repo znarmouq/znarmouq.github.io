@@ -1,8 +1,7 @@
 "use client";
 import Image from "next/image";
-import React, { PureComponent } from 'react';
-import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer } from 'recharts';
-import Link from "next/link";
+import React from 'react';
+
 
 export default function Home() {
   return (

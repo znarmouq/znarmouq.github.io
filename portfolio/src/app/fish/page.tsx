@@ -1,7 +1,7 @@
 // app/fish/page.tsx
 "use client";
 import Image from "next/image";
-import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer } from 'recharts';
+import { Radar, RadarChart, PolarGrid, PolarAngleAxis, ResponsiveContainer } from 'recharts';
 
 
 
