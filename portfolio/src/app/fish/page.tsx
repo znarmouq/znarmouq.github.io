@@ -1,7 +1,9 @@
 // app/fish/page.tsx
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { Radar, RadarChart, PolarGrid, PolarAngleAxis, ResponsiveContainer } from 'recharts';
+
 
 
 
@@ -91,21 +93,19 @@ export default function Fish() {
           Youtube
         </a>
 
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="/"
-        >
-          <Image
-            aria-hidden
-            src="/home.svg"
-            alt="Fish Stats"
-            width={16}
-            height={16}
-          />
-
-          Home
-        </a>
-        
+        <Link
+            href="/"
+            className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+            >
+            <Image
+                aria-hidden
+                src="/home.svg"
+                alt="Fish Stats"
+                width={16}
+                height={16}
+            />
+            Home
+        </Link>
       </footer>
     </div>
   );
